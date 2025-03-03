@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>DINE & DESSERT</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#about-us">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Welcome) -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>We belive good food offer great smile</h2>
+            <p>Experience the best dining with delicious meals and great ambiance.</p>
+            <a href="#reservation" class="cta-btn">Reserve a Table</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <p>Explore our variety of mouthwatering dishes.</p>
+        
+        <!-- Categories (Appetizers, Mains, Desserts) -->
+        <div class="menu-category">
+            <h3>Starters</h3>
+            <p>A delicious start to your meal.</p>
+            <div class="menu-item">
+                <img src="IMGS/finger chips.jpg" alt="Finger chips">
+                <h4>Finger Chips</h4>
+                <p>Enjoy our crispy,golden finger chips.</p>
+                <span>₹120</span>
+            </div>
+            <div class="menu-item">
+                <img src="IMGS/chicken lollipop.jpg" alt="chicken lollipop">
+                <h4>Chicken Lollipop</h4>
+                <p>Savor the flavor of our juicy chicken lollipop.</p>
+                <span>₹210</span>
+            </div>
+            <div class="menu-item">
+                <img src="IMGS/paneer tikka.jpg" alt="paneer tikka">
+                <h4>Paneer Tikka</h4>
+                <p>Indulge in our flavorful paneer tikka.</p>
+                <span>$180</span>
+            </div>
+            <div class="menu-item">
+                <img src="IMGS/chicken tikka.jpg" alt="chicken tikka">
+                <h4>Chicken Tikka</h4>
+                <p>Relish the mouthwatering taste of chicken tikka.</p>
+                <span>₹260</span>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Main Courses</h3>
+            <p>The perfect main course for your meal.</p>
+            <div class="menu-item">
+                <img src="IMGS/palak paneer.jpg" alt="Palak paneer">
+                <h4>Palak Paneer</h4>
+                <p>Flavorful and creamy palak paneer.</p>
+                <span>₹275</span>
+            </div>
+            <div class="menu-item">
+                <img src="IMGS/chicken curry.jpg" alt="chicken curry">
+                <h4>Chicken Curry</h4>
+                <p>Rich spices & delicious chicken curry.</p>
+                <span>₹350</span>
+            </div>
+            <div class="menu-item">
+                <img src="IMGS/veg biryani.jpg" alt="veg biryani">
+                <h4>Veg Biryani</h4>
+                <p>Fragrant veg biryani with fresh veggies.</p>
+                <span>₹570</span>
+            </div>
+            <div class="menu-item">
+                <img src="IMGS/chicken biryani.jpg" alt="chicken biryani">
+                <h4>Chicken Biryani</h4>
+                <p>Flavorful chicken biryani with tender chicken.</p>
+                <span>₹690</span>
+            </div>
+            <div class="menu-item">
+                <img src="IMGS/garlic naan.jpg" alt="garlic naan">
+                <h4>Garlic Naan</h4>
+                <p>Brushed with rich garlic butter.</p>
+                <span>₹140</span>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Desserts</h3>
+            <p>A sweet way to end your meal.</p>
+            <div class="menu-item">
+                <img src="IMGS/gulab jamun.jpg" alt="gulab jamun">
+                <h4>Gulab Jamun</h4>
+                <p>Soft, syrup-soaked gulab jamun.</p>
+                <span>₹80</span>
+            </div>
+            <div class="menu-item">
+                <img src="IMGS/fruit pastry.jpg" alt="fruit pastry">
+                <h4>Fruit Pastry</h4>
+                <p>Sweet and creamy fruit pastry.</p>
+                <span>₹65</span>
+            </div>
+            <div class="menu-item">
+                <img src="IMGS/jelabi.jpg" alt="jelabi">
+                <h4>Jelabi</h4>
+                <p>Hot and crispy jelabi, drenched in sweet syrup.</p>
+                <span>₹50</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <h2>Make a Reservation</h2>
+        <form id="reservation-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="date">Date</label>
+            <input type="date" id="date" required>
+            <br>
+            <label for="time">Time</label>
+            <input type="time" id="time" required>
+            <br>
+            <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" required>
+            <br>
+            <button type="submit" class="cta-btn">Reserve Now</button>
+        </form>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to <strong>The Dine & Dessert</strong>, where passion for food meets a dedication to craftsmanship. Founded in 2023 by Chef Usha, The Dine & Dessert was born out of a desire to bring people together around a shared love of locally sourced, seasonal ingredients. From our humble beginnings in a small kitchen, we’ve grown into a community favorite, known for our warm atmosphere and innovative dishes.</p>
+            
+            <p>Our mission is simple: to provide exceptional food that tells a story. Every dish is inspired by the vibrant flavors of the region, carefully prepared with fresh, seasonal produce. We believe in supporting local farmers and artisans, ensuring that every meal not only delights the palate but also supports the community we’re a part of.</p>
+    
+            <p>At The Dine & Dessert, we celebrate the connection between food and family. Whether it’s our signature  our famous roasted vegetables, or a decadent chocolate dessert, we want every meal to feel like home. Our dedicated team, led by Chef Usha, ensures that each dish is crafted with love and attention to detail.</p>
+    
+            
+            <p>Come visit us for a cozy dining experience, where the food is delicious, the people are friendly, and the atmosphere is always warm. We look forward to welcoming you to <strong>The Dine & Dessert</strong>, where every meal feels like a celebration.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Whether you have a question, feedback, or want to make a reservation, feel free to reach out. Our team is here to help!</p>
+            
+            <div class="contact-info">
+                <p><strong>Location:</strong>  hitech city, hyderabad </p>
+                <p><strong>Phone:</strong> (+91) 8685882973</p>
+                <p><strong>Email:</strong> <a href="mailto:info@dinedessert.com">info@dinedessert.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; DINE & DESSERT. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
